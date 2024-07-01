@@ -3,12 +3,15 @@ import Logo from "../assets/logo.png";
 import Github from "../assets/github.png";
 import React from 'react';
 import { Link } from 'react-scroll';
-import { saveAs } from 'file-saver';
+// import { saveAs } from 'file-saver';
 
 const downloadPdf = () => {
-    const pdfUrl = 'https://cdn.discordapp.com/attachments/770036405220933662/1256432918675460207/PDF.pdf?ex=6680bfd7&is=667f6e57&hm=8d9c0bc1d5cced0f08d068b3e557226b0cce3b0299b706317a78dad4eff853a6&';
-    saveAs(pdfUrl, 'Curriculum.pdf');
+    const pdfUrl = 'https://drive.google.com/file/d/16Q5W-XwsxAyyQKlZXDhbzlkolAs7Emh5/view?usp=sharing';
+    // saveAs(pdfUrl, 'Eleazar Missael.pdf');
+    window.open(pdfUrl, "_blank");
 };
+
+
 
 const Home = () => {
     return (
