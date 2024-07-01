@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/build/static/css/main.deadf99c.css",
+    "main.js": "/my-portfolio/build/static/js/main.3afbcc37.js",
+    "static/media/bliss-website.png": "/my-portfolio/build/static/media/bliss-website.97febad7d073988b62a8.png",
+    "static/media/projects-community.png": "/my-portfolio/build/static/media/projects-community.4200011e5cbcdf50dda9.png",
+    "static/media/Overload-website.png": "/my-portfolio/build/static/media/Overload-website.3c2b54c1a9418a6ea979.png",
+    "static/media/nexus-mod.png": "/my-portfolio/build/static/media/nexus-mod.767ebfb876199f13a68f.png",
+    "static/media/logo.png": "/my-portfolio/build/static/media/logo.92dfa68a9e0e88a78a80.png",
+    "static/media/portofolio.png": "/my-portfolio/build/static/media/portofolio.c64cb7aa7514e4efbdc6.png",
+    "static/media/github.png": "/my-portfolio/build/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/verify.png": "/my-portfolio/build/static/media/verify.1142fd488a1de449301a.png",
+    "index.html": "/my-portfolio/build/index.html",
+    "main.deadf99c.css.map": "/my-portfolio/build/static/css/main.deadf99c.css.map",
+    "main.3afbcc37.js.map": "/my-portfolio/build/static/js/main.3afbcc37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deadf99c.css",
+    "static/js/main.3afbcc37.js"
+  ]
+}
