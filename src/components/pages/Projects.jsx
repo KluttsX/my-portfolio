@@ -1,7 +1,7 @@
 import '../styles/Projects.css';
 import React, { useEffect } from 'react';
 import bliss from "../assets/bliss-website.png";
-import rightarrow from "../assets/right-arrow.png"
+// import rightarrow from "../assets/right-arrow.png"
 import nexus from "../assets/nexus-mod.png";
 import community from "../assets/projects-community.png";
 import overload from "../assets/Overload-website.png";
@@ -10,16 +10,12 @@ import portfolio from "../assets/portofolio.png";
 
 const Projects = () => {
 
+
     useEffect(() => {
-        const handleLoad = () => {
-            slider();
-        };
+        slider();  // Llama a tu función slider directamente al montar el componente
 
-        window.addEventListener('load', handleLoad);
-
-        return () => {
-            window.removeEventListener('load', handleLoad);
-        };
+        // Limpiador vacío, ya que no hay nada que limpiar
+        return () => { };
     }, []);
 
     const slider = () => {
