@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 // import { saveAs } from 'file-saver';
 
 const downloadPdf = () => {
-    const pdfUrl = 'https://drive.google.com/file/d/16Q5W-XwsxAyyQKlZXDhbzlkolAs7Emh5/view?usp=sharing';
+    const pdfUrl = 'https://drive.google.com/file/d/1s04a3I7HprU9a01etvDtUfn29_IXTa_c/view?usp=sharing';
     // saveAs(pdfUrl, 'Eleazar Missael.pdf');
     window.open(pdfUrl, "_blank");
 };
