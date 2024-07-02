@@ -1,7 +1,7 @@
 import '../styles/Projects.css';
 import React, { useEffect } from 'react';
 import bliss from "../assets/bliss-website.png";
-// import rightarrow from "../assets/right-arrow.png"
+import rightarrow from "../assets/right-arrow.png"
 import nexus from "../assets/nexus-mod.png";
 import community from "../assets/projects-community.png";
 import overload from "../assets/Overload-website.png";
@@ -92,14 +92,14 @@ const Projects = () => {
                     <div class="carousel">
                         <div className="card">
                             <img src={bliss}
-                                alt="project"
+                                alt="Bliss Website"
                                 draggable='false' />
                             <div className="group-text">
                                 <h3>Bliss Website</h3>
                                 <div className='divider'>
                                     <div className='icons'>
-                                        {/* <p>Github</p>
-                                        <img src={rightarrow} alt="fechita" /> */}
+                                        <p>Github</p>
+                                        <img src={rightarrow} alt="fechita" />
                                     </div>
                                     <p>Html, Css, Js, Firebase</p>
                                 </div>
@@ -107,14 +107,14 @@ const Projects = () => {
                         </div>
                         <div className="card">
                             <img src={nexus}
-                                alt="project"
+                                alt="Nexus Mods"
                                 draggable='false' />
                             <div className="group-text">
-                                <h3>Nexus Mod</h3>
+                                <h3>Nexus Mods</h3>
                                 <div className='divider'>
                                     <div className='icons'>
-                                        {/* <p>Github</p>
-                                        <img src={rightarrow} alt="fechita" /> */}
+                                        <p>Github</p>
+                                        <img src={rightarrow} alt="fechita" />
                                     </div>
                                     <p>WPF .Net Framework - C#</p>
                                 </div>
@@ -122,14 +122,14 @@ const Projects = () => {
                         </div>
                         <div className="card">
                             <img src={community}
-                                alt="project"
+                                alt="Community Manager"
                                 draggable='false' />
                             <div className="group-text">
-                                <h3>Community Manager Website</h3>
+                                <h3>Community Manager</h3>
                                 <div className="divider">
                                     <div className='icons'>
-                                        {/* <p>Github</p>
-                                        <img src={rightarrow} alt="fechita" /> */}
+                                        <p>Github</p>
+                                        <img src={rightarrow} alt="fechita" />
                                     </div>
                                     <p>Html, Css</p>
                                 </div>
@@ -137,14 +137,14 @@ const Projects = () => {
                         </div>
                         <div className="card">
                             <img src={overload}
-                                alt="project"
+                                alt="Overload Website"
                                 draggable='false' />
                             <div className="group-text">
                                 <h3>Overload Website</h3>
                                 <div className="divider">
                                     <div className='icons'>
-                                        {/* <p>Github</p>
-                                        <img src={rightarrow} alt="fechita" /> */}
+                                        <p>Github</p>
+                                        <img src={rightarrow} alt="fechita" />
                                     </div>
                                     <p>Html, Css</p>
                                 </div>
@@ -152,14 +152,14 @@ const Projects = () => {
                         </div>
                         <div className="card">
                             <img src={portfolio}
-                                alt="project"
+                                alt="My Portfolio"
                                 draggable='false' />
                             <div className="group-text">
                                 <h3>My Portfolio</h3>
                                 <div className="divider">
                                     <div className='icons'>
-                                        {/* <p>Github</p>
-                                        <img src={rightarrow} alt="fechita" /> */}
+                                        <p>Github</p>
+                                        <img src={rightarrow} alt="fechita" />
                                     </div>
                                     <p>React Js</p>
                                 </div>
